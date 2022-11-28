@@ -1,0 +1,485 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'fr' Physical Memory: 16266 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Logiciel création\unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+E:/Logiciel création/unity/Project/TunnelRunner
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+52456
+Successfully changed project path to: E:/Logiciel création/unity/Project/TunnelRunner
+E:/Logiciel création/unity/Project/TunnelRunner
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 94.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path E:/Logiciel création/unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Logiciel création/unity/Project/TunnelRunner/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon R9 200 Series (ID=0x6798)
+    Vendor:   ATI
+    VRAM:     3051 MB
+    Driver:   27.20.20903.8001
+Initialize mono
+Mono path[0] = 'E:/Logiciel création/unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Logiciel création/unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Logiciel création/unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Logiciel création/unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/Logiciel création/unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003870 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 81.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.577 seconds
+Domain Reload Profiling:
+	ReloadAssembly (578ms)
+		BeginReloadAssembly (79ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (408ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (90ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (254ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (48ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006148 seconds.
+Android Extension - Scanning For ADB Devices 717 ms
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Logiciel création\unity\Project\TunnelRunner\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Logiciel création\unity\Project\TunnelRunner\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.927 seconds
+Domain Reload Profiling:
+	ReloadAssembly (928ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (715ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (329ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3929 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (1.4 MB). Loaded Objects now: 4407.
+Memory consumption went from 240.7 MB to 239.3 MB.
+Total: 3.547100 ms (FindLiveObjects: 0.396400 ms CreateObjectMapping: 0.103300 ms MarkObjects: 2.605700 ms  DeleteObjects: 0.440600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1477971.776961 seconds.
+  path: Assets/Image/Circle 1.mat
+  artifactKey: Guid(87849af0054dccd4397bada693c5a904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/Circle 1.mat using Guid(87849af0054dccd4397bada693c5a904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee883da36fc433e7309bcca1025f819b') in 0.108563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.501883 seconds.
+  path: Assets/Image/Materials/Dead.mat
+  artifactKey: Guid(7c8fe83071e56094eba666e745d3321c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/Materials/Dead.mat using Guid(7c8fe83071e56094eba666e745d3321c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e163f0a9f0bc0a1a1c47893273153ba') in 0.013444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.289215 seconds.
+  path: Assets/Material/Color 1.mat
+  artifactKey: Guid(0eaf2a9702eddf445915d6b13e358fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Color 1.mat using Guid(0eaf2a9702eddf445915d6b13e358fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c969171f2cd44592cd574670ba953d') in 0.020539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.541390 seconds.
+  path: Assets/Prefab/+1.prefab
+  artifactKey: Guid(aae1407fdede9b647a2e8cdb0f78bad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/+1.prefab using Guid(aae1407fdede9b647a2e8cdb0f78bad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316ada65e427db8158d5a947fa11c172') in 0.009582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefab/Pdv.prefab
+  artifactKey: Guid(6bd7bfada4e3e324892d487aec6a3876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Pdv.prefab using Guid(6bd7bfada4e3e324892d487aec6a3876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a7d55f304fda9dc0d497dbca7b17f3') in 0.003350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.952223 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 6.prefab
+  artifactKey: Guid(d3f5e83a487212041bf42581d0b41989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 6.prefab using Guid(d3f5e83a487212041bf42581d0b41989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2455bacfccf6decc5367c1c0a1e082b2') in 0.162558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.613673 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 1.prefab
+  artifactKey: Guid(8f2c75dc0d3aa30458d82245fa5bd478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 1.prefab using Guid(8f2c75dc0d3aa30458d82245fa5bd478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc185b5f3ccb79dfd05d30984b29e9d') in 0.012030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.756867 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 2.prefab
+  artifactKey: Guid(3a78cf755ffe4f74f887772aa868b457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 2.prefab using Guid(3a78cf755ffe4f74f887772aa868b457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aed43e07e73d501384848fbb97db679') in 0.012278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.473478 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 3.prefab
+  artifactKey: Guid(2bbc905943cb30440b58a8e546be1ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 3.prefab using Guid(2bbc905943cb30440b58a8e546be1ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd384e8f0da5e39f117f8adace02deb3') in 0.013124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.031555 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 5.prefab
+  artifactKey: Guid(b109dd07f5db90348b0cb381b3522943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 5.prefab using Guid(b109dd07f5db90348b0cb381b3522943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b27825c39e9bd46e7164782228d0ab') in 0.011221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.298109 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 7.prefab
+  artifactKey: Guid(53c4e13fe536f6e4c84ddf5cc5f9a627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 7.prefab using Guid(53c4e13fe536f6e4c84ddf5cc5f9a627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9e3ca422c30228c74a9dd6f155167c') in 0.013988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.972204 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 8.prefab
+  artifactKey: Guid(8e1a56d6ea54a5e4488cd701ce4c576d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 8.prefab using Guid(8e1a56d6ea54a5e4488cd701ce4c576d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a22184b6db463dd158546e8bdbf9393') in 0.012985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.241559 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 9.prefab
+  artifactKey: Guid(0abdf6a77f5cb4a44815a66516372c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 9.prefab using Guid(0abdf6a77f5cb4a44815a66516372c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878f0995c5c3520e30c2decc98e040f5') in 0.012089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.907886 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 10.prefab
+  artifactKey: Guid(7796fcdde6abdc641b1df5c7d130866f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 10.prefab using Guid(7796fcdde6abdc641b1df5c7d130866f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d519f7e34ca8bcd1774fcceaf5de0af') in 0.013283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.698164 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 11.prefab
+  artifactKey: Guid(21ea0fccf2deb5343b043df414ecb7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 11.prefab using Guid(21ea0fccf2deb5343b043df414ecb7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc907bfe1e2465ca4d626236fa76f627') in 0.011726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.445692 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 12.prefab
+  artifactKey: Guid(fc5dd238b3a736b4b81c77724fa3c233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 12.prefab using Guid(fc5dd238b3a736b4b81c77724fa3c233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b608ec940c167fac733776e359874f') in 0.011915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.071459 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 15.prefab
+  artifactKey: Guid(f99b9821f1490f24b9fcc3946316e490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 15.prefab using Guid(f99b9821f1490f24b9fcc3946316e490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7b767a33a83cb61f781e17409a19a6') in 0.013765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.694833 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 13.prefab
+  artifactKey: Guid(8a5c97e90da279243a18f4444f05a6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 13.prefab using Guid(8a5c97e90da279243a18f4444f05a6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28e4a3665e26ba21ecddcfa1ea6e7b0') in 0.030287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.300774 seconds.
+  path: Assets/Material/Feedback/Cube.prefab
+  artifactKey: Guid(9427dc2786f0edd4d99880a9441ab666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Feedback/Cube.prefab using Guid(9427dc2786f0edd4d99880a9441ab666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be99962d09cc6abd74126537e0730d6c') in 0.048706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.613785 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 13.prefab
+  artifactKey: Guid(8a5c97e90da279243a18f4444f05a6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 13.prefab using Guid(8a5c97e90da279243a18f4444f05a6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c771b477d7849542e0e7d1ee364e7b0') in 0.024028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.378959 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 2.prefab
+  artifactKey: Guid(3a78cf755ffe4f74f887772aa868b457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 2.prefab using Guid(3a78cf755ffe4f74f887772aa868b457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da73f694b9ed57260797e7901164260') in 0.012250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.334154 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 2.prefab
+  artifactKey: Guid(3a78cf755ffe4f74f887772aa868b457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 2.prefab using Guid(3a78cf755ffe4f74f887772aa868b457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d6e3c57ee38c26dee8de8078fb4212') in 0.014350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.265844 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 2.prefab
+  artifactKey: Guid(3a78cf755ffe4f74f887772aa868b457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 2.prefab using Guid(3a78cf755ffe4f74f887772aa868b457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7ed730b7b71189812779a0bea9ebdd') in 0.012373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.673541 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 2.prefab
+  artifactKey: Guid(3a78cf755ffe4f74f887772aa868b457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 2.prefab using Guid(3a78cf755ffe4f74f887772aa868b457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592b1612d39c1061cbc084205c6782f2') in 0.013241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.235472 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 3.prefab
+  artifactKey: Guid(2bbc905943cb30440b58a8e546be1ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 3.prefab using Guid(2bbc905943cb30440b58a8e546be1ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d59f1176a89efb00e508a7f73c8c87a') in 0.011970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.168294 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 4.prefab
+  artifactKey: Guid(887184c8f55f932438f1cb8f123e1a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 4.prefab using Guid(887184c8f55f932438f1cb8f123e1a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2dde7f78807a6c1da5332c0fb5e6e6') in 0.012158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.897680 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 4.prefab
+  artifactKey: Guid(887184c8f55f932438f1cb8f123e1a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 4.prefab using Guid(887184c8f55f932438f1cb8f123e1a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e337e7f7c0a5a29e070521a93859125') in 0.019878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.043834 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 6.prefab
+  artifactKey: Guid(d3f5e83a487212041bf42581d0b41989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 6.prefab using Guid(d3f5e83a487212041bf42581d0b41989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4680d9d0e09ce7c12ca4869d87d8ec8d') in 0.028951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.731299 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 6.prefab
+  artifactKey: Guid(d3f5e83a487212041bf42581d0b41989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 6.prefab using Guid(d3f5e83a487212041bf42581d0b41989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5763320730b620f73cd8b27cf42f4bbd') in 0.029982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.021776 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 6.prefab
+  artifactKey: Guid(d3f5e83a487212041bf42581d0b41989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 6.prefab using Guid(d3f5e83a487212041bf42581d0b41989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601187e1a83da8687bf053932bdda9fa') in 0.031255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.443666 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 6.prefab
+  artifactKey: Guid(d3f5e83a487212041bf42581d0b41989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 6.prefab using Guid(d3f5e83a487212041bf42581d0b41989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5082ea3a50181a2711846850e182ae32') in 0.027532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.983501 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 6.prefab
+  artifactKey: Guid(d3f5e83a487212041bf42581d0b41989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 6.prefab using Guid(d3f5e83a487212041bf42581d0b41989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be61ea68e9e649e6e82744d506d1185') in 0.027445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.245955 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 6.prefab
+  artifactKey: Guid(d3f5e83a487212041bf42581d0b41989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 6.prefab using Guid(d3f5e83a487212041bf42581d0b41989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0080c11484a0be1cb22e9b43d3f2b37f') in 0.028383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.661458 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 7.prefab
+  artifactKey: Guid(53c4e13fe536f6e4c84ddf5cc5f9a627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 7.prefab using Guid(53c4e13fe536f6e4c84ddf5cc5f9a627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6d7c46dfe71c0b6cce89262f8912da') in 0.011921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.293784 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 8.prefab
+  artifactKey: Guid(8e1a56d6ea54a5e4488cd701ce4c576d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 8.prefab using Guid(8e1a56d6ea54a5e4488cd701ce4c576d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e9afcdd5693b2020e48dda6f4f8b95') in 0.013189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.823331 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 9.prefab
+  artifactKey: Guid(0abdf6a77f5cb4a44815a66516372c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 9.prefab using Guid(0abdf6a77f5cb4a44815a66516372c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbcd77b05aed4c56f37d496f5eae6922') in 0.012177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.296413 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 10.prefab
+  artifactKey: Guid(7796fcdde6abdc641b1df5c7d130866f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 10.prefab using Guid(7796fcdde6abdc641b1df5c7d130866f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05617770327390d3fcae90ccb8556184') in 0.012200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.194836 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 11.prefab
+  artifactKey: Guid(21ea0fccf2deb5343b043df414ecb7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 11.prefab using Guid(21ea0fccf2deb5343b043df414ecb7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77343d58d641a21a87d5cdefb0bf1746') in 0.012181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.745751 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 12.prefab
+  artifactKey: Guid(fc5dd238b3a736b4b81c77724fa3c233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 12.prefab using Guid(fc5dd238b3a736b4b81c77724fa3c233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6fe547aaaf25aa14efee1e24c75d5c1') in 0.011996 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006036 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Logiciel création\unity\Project\TunnelRunner\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Logiciel création\unity\Project\TunnelRunner\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.004 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1004ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (768ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (253ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (342ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3865 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.4 MB). Loaded Objects now: 4452.
+Memory consumption went from 239.7 MB to 238.3 MB.
+Total: 3.769400 ms (FindLiveObjects: 0.438100 ms CreateObjectMapping: 0.099100 ms MarkObjects: 2.690900 ms  DeleteObjects: 0.540200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 61.160381 seconds.
+  path: Assets/Prefab/Structure/Color 1.mat
+  artifactKey: Guid(0eaf2a9702eddf445915d6b13e358fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Color 1.mat using Guid(0eaf2a9702eddf445915d6b13e358fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade3a785b35cb50a3083b05db77948f0') in 0.106201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefab/Structure/Torus SIMPLE 13.prefab
+  artifactKey: Guid(8a5c97e90da279243a18f4444f05a6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structure/Torus SIMPLE 13.prefab using Guid(8a5c97e90da279243a18f4444f05a6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed8e3ee7ca059e5b466000dab589966') in 0.049907 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.4 MB). Loaded Objects now: 4453.
+Memory consumption went from 163.3 MB to 161.9 MB.
+Total: 3.355400 ms (FindLiveObjects: 0.332000 ms CreateObjectMapping: 0.089800 ms MarkObjects: 2.522600 ms  DeleteObjects: 0.410500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
